@@ -103,6 +103,7 @@ h1{
   width: 100%;
   width: 960px;
   margin: 0 auto;
+  column-count: 2;
 }
 .leftbox{
   flex: 1;
@@ -110,6 +111,7 @@ h1{
   font-size: 17px;
 }
 main {
+  float: left;
   width: 100%;
   flex: 3;
   padding-left: 30px;
