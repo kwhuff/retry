@@ -1,0 +1,148 @@
+*{
+  box-sizing: border-box;
+}
+header{
+  background-color: #f7f7f7;
+  height: 88px;
+  width: 100%;
+  position: fixed;
+}
+a{
+  color:black;
+  text-decoration: none;
+}
+a:hover{
+  color: red;
+}
+#headeraccent{
+  background-color: red;
+  height: 3px;
+  width: 960px;
+  margin: 0 auto;
+}
+.headerboxes{
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+  padding-top: 29px;
+  text-decoration: none;
+}
+#DLogo{
+  height: 17px;
+}
+#glassify{
+  height:27px;
+}
+.box1{
+  flex: 1;
+  padding-left: 50px;
+}
+.box2{
+  flex: 2;
+  word-spacing: 15px;
+  font-size: 20px;
+}
+.box3{
+  flex: 1;
+}
+.box4{
+  flex: 1;
+  padding-right: 63px;
+  text-align: right;
+}
+.MainText{
+  padding-top: 150px;
+  text-align:center;
+  color: #4a4a4a;
+  word-spacing: .5px;
+  line-height: 29px;
+  font-size: 25px;
+}
+h1{
+  margin: 30px;
+}
+.grid{
+  padding-top: 40px;
+  margin: 0 auto;
+  width: 960px;
+  display: flex;
+  height: 550px;
+
+}
+.grid img{
+  width: 100%;
+}
+.column_left{
+  width: 64vw;
+  flex: 2;
+  padding-right: .7vw;
+}
+.column_left_top{
+  /*display: flex;*/
+  padding-bottom: 0;
+}
+.column_left_bot{
+  display: flex;
+  padding-top: .5vw;
+}
+.column_left_bot1{
+  flex: 1.2;
+  padding-right: .7vw;
+}
+.column_left_bot2{
+  flex: 1.8;
+  height: 300px;
+}
+.column_right{
+  width: 36vw;
+  flex: 1;
+}
+.container {
+  display: -webkit-flex;
+  display: flex;
+  width: 100%;
+  width: 960px;
+  margin: 0 auto;
+}
+.leftbox{
+  flex: 1;
+  width: 100%;
+  font-size: 17px;
+}
+main {
+  width: 100%;
+  flex: 3;
+  padding-left: 30px;
+}
+section {
+  flex: 3;
+  columns: 3;
+  width: 100%;
+  font-size: 14px;
+  font-weight: lighter;
+  color: #494949;
+}
+main > h2{
+  margin-bottom: 2px;
+  float: left;
+  font-size: 17px;
+}
+h3{
+  color: red;
+  font-size: 17px;
+  margin-bottom: -9px;
+  padding-top: 17px;
+  margin-top:2px;
+}
+#alsogray{
+  color:#494949;
+  font-weight: lighter;
+  text-decoration: none;
+  font-size: 14px;
+}
+h2{
+  padding-top: 1px;
+}
+#alsogray > a{
+  text-decoration: underline;
+}
